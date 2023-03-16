@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Trust Wallet">
+    <listeners>
+        <listener class-name="TestngListeners.Listeners.TestListener"/>
+    </listeners>
+    <test name="Chrome Extension Test">
+        <classes>
+            <class name="Tests.TrustWalletTests"/>
+<!--            <class name="Tests.PositiveCases"/>-->
+<!--            <class name="Tests.NegativeCases"/>-->
+<!--            <class name="Tests.Performance"/>-->
+        </classes>
+    </test>
+</suite>
